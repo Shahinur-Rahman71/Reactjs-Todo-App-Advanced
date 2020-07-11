@@ -1,0 +1,23 @@
+.listDesign{
+    margin: 10px 20px;
+    border-radius: 10px;
+    padding: 5px;
+    width: 360px;
+    
+}
+.listInputdesign{
+    background-color: transparent;
+    border: none;
+    min-width: 300px;
+}
+.listInputdesign:focus{
+    outline: none;
+}
+.inputdesign::placeholder{
+    font-style: italic;
+}
+.iconDesign{
+    cursor: pointer;
+    color: red;
+   
+}

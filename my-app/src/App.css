@@ -1,0 +1,63 @@
+body{
+    background-color: slategrey;
+}
+.App{
+    background-color: teal;
+    min-height: 550px;
+    width: 400px;
+    margin: 40px auto;
+    border-radius: 10px;
+    /* text-align: center; */
+}
+.inputdesign{
+    margin: 10px 50px 0px 50px;
+    padding: 5px;
+    border: none;
+    outline: none;
+    border-radius: 5px;
+    width: 300px;
+}
+.buttondesign{
+    background-color: black;
+    width: 120px;
+    color: white;
+    outline: none;
+    padding: 5px;
+    margin: 10px 140px 0px 140px;
+    border: none;
+    border-radius: 5px;
+}
+
+/* extra small device */
+@media screen and (max-width: 575.98px) {
+     .App{
+        margin: 20px auto;
+     } 
+}
+
+@media screen and (min-width: 576px) {
+     .App{
+        margin: 20px auto;
+     } 
+}
+
+/* // Medium devices (tablets, 768px and up) */
+@media screen and (min-width: 768px) {
+    .App{
+        margin: 30px auto;
+     } 
+}
+
+/* // Large devices (desktops, 992px and up) */
+@media screen and (min-width: 992px) {
+    .App{
+        margin: 40px auto;
+     }  
+}
+
+/* // Extra large devices (large desktops, 1200px and up) */
+@media screen and (min-width: 1200px) {
+    .App{
+        margin: 40px auto;
+     }  
+}
